@@ -1,3 +1,3 @@
-from .account import FidelityAccount
+from .account import FidelityAccount, Settings
 
-__all__ = ["FidelityAccount"]
+__all__ = ["FidelityAccount", "Settings"]
