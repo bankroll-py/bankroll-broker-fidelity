@@ -13,8 +13,8 @@ setup(
     long_description_content_type="text/markdown",
     license="MIT",
     url="https://github.com/bankroll-py/bankroll-broker-fidelity",
-    packages=["bankroll.broker.fidelity"],
-    package_data={"bankroll.broker.fidelity": ["py.typed"]},
+    packages=["bankroll.brokers.fidelity"],
+    package_data={"bankroll.brokers.fidelity": ["py.typed"]},
     classifiers=[
         "Development Status :: 3 - Alpha",
         "Intended Audience :: Developers",
