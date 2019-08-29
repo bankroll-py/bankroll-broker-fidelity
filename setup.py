@@ -8,7 +8,7 @@ setup(
     version="0.4.0",
     author="Justin Spahr-Summers",
     author_email="justin@jspahrsummers.com",
-    description="TODO",
+    description="Fidelity support for bankroll",
     long_description=long_description,
     long_description_content_type="text/markdown",
     license="MIT",
@@ -26,9 +26,7 @@ setup(
         "Topic :: Office/Business :: Financial :: Investment",
         "Typing :: Typed",
     ],
-    install_requires=[
-        "bankroll_broker @ git+https://github.com/bankroll-py/bankroll-broker@master#egg=bankroll_broker"
-    ],
+    install_requires=["bankroll_broker ~= 0.4.0", "bankroll_model ~= 0.4.0"],
     keywords="trading investing finance portfolio fidelity",
 )
 
